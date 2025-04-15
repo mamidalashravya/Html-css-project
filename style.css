@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.main-container {
+    background-image: url("images/Close-up\ of\ Overlapping\ Leaves.jpeg");
+    height: 100vh;
+    background-size: cover;
+    margin: 20px;
+}
+.nav-link-active {
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 15px;
+    margin: 15px;
+}
+.heading-section {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.containers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-heading {
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 120px;
+    font-weight: 300;
+}
+.main-para {
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 30px;
+    font-weight: 100;
+}
+.articles-section {
+    background-color:azure;
+    height: 100vh;
+    
+}
+.articles-heading {
+    color: black;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 100px;
+}
+.card-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 40px;
+}
+div.card-section {
+    height: 450px;
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+.card-section {
+    height: 400px;
+    width: 340px;
+    background-color: white;
+    margin: 30px;
+}
+.section-img {
+    height: 230px;
+    width: 400px;
+}
+.section-para {
+    color: black;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 80px;
+}
+.about-img {
+    height: 500px;
+    width: 800px;
+    margin-top: 25px;
+}
+.about-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.about-heading {
+    color: black;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 35pxs;
+}
+.para-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-para {
+    color: black;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 15px;
+    padding: 20px;
+    text-align: center;
+}
+.subscribe-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 70vh;
+    padding-top: 15px;
+    background-color: #f2f1ed;
+    
+}
+.subscribe-heading {
+    color: black;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 40px;
+    padding-top: 10px;
+}
+.subscribe-para {
+    color: black;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 26px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.input-type {
+    height: 60px;
+    width: 450px;
+    font-size: 15px;
+    padding: 10px;
+    border-width: 0px;
+}
+.button {
+    height: 40px;
+    width: 140px;
+    font-size: 12px;
+    margin-top: 30px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 30vh;
+}
+.footer-img-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.footer-images{
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+.upper-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    list-style: none;
+    margin: 40px;
+}
+.footer-name{
+    margin: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+/* Slightly broader phones (up to 600px) */
+@media only screen and (max-width: 600px) {
+    .main-heading {
+        font-size: 50px;
+    }
+    .main-para {
+        font-size: 20px;
+    }
+    .card-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 40px;
+    }
+    .about-img {
+        height: 350px;
+        width: 480px;
+    }
+    .about-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-heading {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 25px;
+    }
+    .about-para {
+        font-size: 14px;
+        text-indent: 80px;
+        text-align: left;
+        
+    }
+    .para-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .input-type {
+        height: 60px;
+        width: 450px;
+        font-size: 15px;
+        padding: 10px;
+        border-width: 0px;
+    }
+    .button {
+        height: 50px;
+        width: 450px;
+        font-size: 18px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer-images{
+        height: 40px;
+        width: 40px;
+    }
+    .upper-link{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        order: 0;
+    }
+    .footer-name{
+        margin: 20px;
+        font-family: "Lucida Console", "Courier New", monospace;
+    }
+    .footer-img-section{
+        margin: 0px;
+        text-align: center;
+        order: 1;
+    }
+    
+}
+
